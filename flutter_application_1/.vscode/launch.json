@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "手机 debug",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "ALPU024308000706"
+    },
+    {
+      "name": "手机 profile",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "ALPU024308000706",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "手机 release",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "ALPU024308000706",
+      "flutterMode": "release"
+    },
+    {
+      "name": "web debug",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome"
+    }
+  ]
+}
