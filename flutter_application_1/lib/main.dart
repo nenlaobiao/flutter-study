@@ -72,7 +72,11 @@ class _MainTabsPageState extends ConsumerState<MainTabsPage> {
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: '首页'),
           BottomNavigationBarItem(
-            icon: Badge(label: Text('$totalCount'),child:  Icon(Icons.shopping_cart),),
+            icon: Badge(
+              isLabelVisible: totalCount > 0,
+              label: Text('$totalCount'),
+              child: Icon(Icons.shopping_cart),
+            ),
             label: '购物车',
           ),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: '我的'),
